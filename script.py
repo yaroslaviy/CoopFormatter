@@ -27,4 +27,4 @@ if sal != '':
     name = f'{sal} {first} {last}'
 fileout = open('output.txt', 'w')
 text = f'{name} \nHuman Resources Coordinator \n{org} \n{add1} {add2} \n{city} {prov} {postal}'
-print(text)
+fileout.write(text)
